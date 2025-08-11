@@ -1,12 +1,11 @@
-# VirtualXP
+# VirtualSeven
 
-Virtual Machine running on a Web browser.
-
+Windows 7 PE on your browser
 ![alt screenshot](https://raw.githubusercontent.com/lrusso/VirtualXP/master/VirtualXP.png)
 
 ## Web
 
-https://lrusso.github.io/VirtualXP/VirtualXP.htm
+https://bargmy.github.io/VirtualSeven/VirtualXP.htm
 
 ## Editing the VirtualXP Registry
 

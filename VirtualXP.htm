@@ -58,7 +58,7 @@
 				var oReq = new XMLHttpRequest();
 
 				// SETTING WHICH FILE MUST BE OBTAINED
-				oReq.open("GET", "VirtualXP.iso", true);
+				oReq.open("GET", "https://github.com/bargmy/VirtualSeven/releases/download/j/Windows7PESuper.Lite50MB.iso", true);
 
 				// SETTING THE RESPONSE TYPE
 				oReq.responseType = "blob";
@@ -76,8 +76,8 @@
 							finalResponse = oReq.response;
 
 							// SETTING THE OPTIONS FOR THE EMULATOR
-							var opts = {reportSpeed: function(s){document.title = "VirtualXP - " + s + " MIPS";}};
-							opts.mem = "192";
+							var opts = {reportSpeed: function(s){document.title = "VirtualSeven - " + s + " MIPS";}};
+							opts.mem = "201";
 							opts.vgamem = "16";
 							opts.fast = true;
 							opts.bios = "VirtualXPBIOS.bin";
